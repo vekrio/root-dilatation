@@ -30,5 +30,5 @@ fdisk -l查看是否成功扩容
 五.操作生效 
 
 xfs_growfs /dev/centos/root
- 
+  
 
