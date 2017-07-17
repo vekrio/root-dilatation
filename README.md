@@ -3,10 +3,10 @@ CENTOS7 根目录扩容
 
 
 一.创建LVM逻辑分区 
-fdisk -l 查看分区 
-1:分区类型 sdb或sda 
-2,3:接下来要使用的内容 
-二.增加分区 
+ fdisk -l 查看分区 
+ 1:分区类型 sdb或sda 
+ 2,3:接下来要使用的内容 
+ 二.增加分区 
 三.创建物理卷加入组 
 pvcreate /dev/sdb1(默认为sdb1) 
 vgextend centos(图1的2)/dev/sdb1 
